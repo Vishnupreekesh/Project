@@ -1,0 +1,44 @@
+create table usertable(
+	userid INT,
+	firstname VARCHAR(100),
+	lastname  VARCHAR(100),
+	status TINYINT,
+	created_Time DATETIME,
+	modified_Time DATETIME,
+	PRIMARY KEY(userid)
+);
+
+
+create table emailtable(
+	userid INT,
+	e_mail VARCHAR(100),
+	email_validation TINYINT,
+	email_Type TINYINT,
+	created_Time DATETIME,
+	modified_Time DATETIME
+	PRIMARY KEY(userid)
+);
+
+create table pwdtable(
+	userid INT,
+	password TEXT,
+	lastchange DATETIME,
+	PRIMARY KEY(userid)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
